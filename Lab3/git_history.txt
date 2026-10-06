@@ -1,0 +1,29 @@
+commit df931451e1aadf6b91093863411e2ad18aa2da2e
+Author: Angelo Bundac <B00175533@mytudublin.ie>
+Date:   Fri Oct 2 16:41:04 2026 +0100
+
+    Part 2...
+
+commit 2631c1802a77461e2c80de8c074de2775cf82a05
+Author: Angelo Bundac <B00175533@mytudublin.ie>
+Date:   Thu Oct 1 23:14:48 2026 +0100
+
+    Test but it does not work
+
+commit b02388a0eca85518f3fa4185d3d236d2098fa604
+Author: Angelo Bundac <B00175533@mytudublin.ie>
+Date:   Wed Sep 30 00:54:06 2026 +0100
+
+    Still workin on the node but don't get it at all
+
+commit 93802f34189a6eed0a93ff3fd3a1f7808111bb69
+Author: Angelo Bundac <B00175533@mytudublin.ie>
+Date:   Tue Sep 29 14:29:30 2026 +0100
+
+    print
+
+commit c344689cbde4db11bc6decfb2be022f94e38e9aa
+Author: Angelo Bundac <B00175533@mytudublin.ie>
+Date:   Tue Sep 29 14:01:21 2026 +0100
+
+    initalise commit
