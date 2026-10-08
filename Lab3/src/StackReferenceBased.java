@@ -1,5 +1,5 @@
-public class StackReferenceBased implements StackInterface
-{
+public class StackReferenceBased implements StackInterface {
+
   private Node top;
 
   public StackReferenceBased()
@@ -67,4 +67,11 @@ public class StackReferenceBased implements StackInterface
 //============================================================================
 //============================================================================
 
-}  // end StackReferenceBased
+ // end StackReferenceBased
+
+	public void displayStack() {
+		
+	}
+	
+}
+	
