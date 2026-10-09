@@ -73,5 +73,9 @@ public class StackReferenceBased implements StackInterface {
 		
 	}
 	
+	public void CreateStack() {
+		
+	}
+	
 }
 	

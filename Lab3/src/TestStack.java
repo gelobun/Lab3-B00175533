@@ -28,59 +28,51 @@ public class TestStack {
 		StackReferenceBased stack = new StackReferenceBased();
 		Scanner s = new Scanner(System.in);	
 		
-		int respone;
+		displayMenu();
 		
-		do {
-			displayMenu();
-			System.out.println("Enter the number: " + s);
-			int respone = s.nextInt();
-			switch(respone) {
-			case 1:
-				System.out.println("1. Push a string on to the stack");
-				break;
-			case 2:
-				System.out.println("2. Pop a string from the stack");
-				break;
-			case 3:
-				System.out.println("3. Peek at the top of the stack");
-				break;
-			case 4:
-				System.out.println("4. Empty the stack");
-				break;
-			case 5:
-				System.out.println("5. Check if a string has balanced brackets.");
-				break;
-			case 6:
-				System.out.println("6. Quit the program");
-				break;
-			} while (respone != 6 ) {
-				
-				char ch;
-				if (ch == '{') {
-					stack.push('{');
-					
-				} else if (ch == '}') {
-					openBrace = stack.pop();
-				}
-			}
-				
-		}
+		System.out.println("Enter the number: ");
+		int response = s.nextInt();
+		s.nextLine();
+	
+		switch(response) {
+		case 1: 
+			System.out.println("1. Push a string on to the stack");
+			break;
+		case 2:
+			System.out.println("2. Pop a string from the stack");
+			break;
+		case 3:
+			System.out.println("3. Peek at the top of the stack");
+			break;
+		case 4:
+			System.out.println("4. Empty the stack");
+			break;
+		case 5:
+			System.out.println("5. Check if a string has balanced brackets.");
+			break;
+		case 6:
+			System.out.println("6. Quit the program");
+			break;
+		} System.out.println();
 		
-		stack.CreateStack();
+		displayMenu();
+		
+		stack.push(s);
+		stack.pop();
+		stack.peek();
+		
+			
+		
+		/*stack.CreateStack();
 		balancedSoFar = true;
 		k = 0;
 		Object aString;
 		while(balancedSoFar && k < aString.length()) {
 			
-		}
+		}*/
 			
 		}
-		
-		
 	
-		stack.push(respone);
-		stack.pop();
-		stack.peek();
 		
 		
 		
